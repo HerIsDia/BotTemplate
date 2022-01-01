@@ -49,7 +49,6 @@ client.on('interactionCreate', async (interaction) => {
       }
     }
   );
-  console.log(commandType);
 });
 
 client.login(token);
