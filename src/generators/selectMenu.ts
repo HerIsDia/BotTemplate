@@ -1,4 +1,4 @@
-import { SlashCommandBuilder, ContextMenuCommandBuilder } from 'discord.js';
+import { MessageActionRow, MessageSelectMenu } from 'discord.js';
 
 export const aboutSelect = new MessageActionRow().addComponents(
   new MessageSelectMenu()

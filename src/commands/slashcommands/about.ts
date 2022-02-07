@@ -5,7 +5,7 @@ import { aboutSelect } from '../../generators/selectMenu';
 export const run = async (client: Client, interaction: CommandInteraction) => {
   interaction.reply({
     embeds: [aboutEmbed()],
-    components: [aboutButton],
+    components: [aboutSelect],
     ephemeral: true,
   });
 };
